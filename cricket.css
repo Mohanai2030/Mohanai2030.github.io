@@ -1,0 +1,278 @@
+
+div.start
+{
+  border:8px solid black;
+  box-shadow: 0 0 70px rgb(65, 60, 60);
+  box-sizing: border-box;
+  padding:10px;
+  height:90svh;
+  margin-top:5svh;
+  width:80%;
+  margin-left:10%;
+  background-color: white;
+}
+
+button
+{
+  cursor:pointer;
+}
+
+h1
+{
+  position:relative;
+  left:30%;
+  height:10%;
+  width:40%;
+  margin:2px;
+}
+
+h1 div
+{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  position:relative;
+  left:4%;
+}
+
+hr{
+  margin:.500px;
+}
+
+/* div.tosstext
+{
+  width:60%;
+} */
+button.toss
+{
+  height:80px;
+  width:80px;
+  border-radius: 50%;
+  cursor: pointer;
+  color:white;
+  background-color: black;
+}
+
+div.tossbutton
+{
+  left:36%;
+  position:relative;
+  width:380px;
+  text-align:center;
+  height:10%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+div.content
+{
+  position:relative;
+  display:grid;
+  height: 20%;
+  width:98%;
+  grid-template-columns: 40% 40%;
+  column-gap:20%;
+  grid-template-rows: 40% 55%;
+  margin:10px;
+  margin-bottom:5px;
+}
+
+.ph1,.userd,.ph2,.computerd
+{
+  background-color: rgb(113, 132, 219);
+}
+
+.content div
+{
+  text-align:center;
+}
+
+.playhead
+{
+  font-size:larger;
+  font-weight:700;
+  display:flex;
+  justify-content: center;
+}
+
+div
+{
+  padding:5px;
+}
+
+
+.dis 
+{
+   display:flex;
+   justify-content: center;
+   align-items: center;
+}
+div.dis span
+{
+  margin:3px 12px;
+  display: inline-flex;
+  height:40px;
+  width:40px;
+  border-radius: 50%;
+  background-color: rgb(209, 199, 199);
+  border:2px solid red;
+  align-items: center;
+  justify-content: center;
+}
+
+div.scoredis
+{
+  width:95%;
+  height:12%;
+  position:relative;
+  left:2.5%;
+  display:grid;
+  justify-content:space-evenly;
+  grid-template-columns: 25% 15% 20% 20% 20%;
+}
+
+div.scoredis div
+{
+  text-align:center;
+}
+
+div.scoredis div:last-child
+{
+  justify-self: flex-start;
+}
+div.choose button
+{
+  display:inline-flex;
+  justify-content: center;
+  align-items: center;
+  height:20px;
+  width:60px;
+  border:2px solid black;
+  padding:10px;
+  font-size:15px;
+  font-weight:300;
+}
+
+
+div.choose,div.usertimer
+{
+  display: flex;
+  gap:8px;
+  justify-content: center;
+}
+
+div.usertimer{
+  height:20px;
+}
+
+div.compareplays
+{
+  display:flex;
+}
+
+.vs
+{
+  font-size: 50px;
+  align-self: center;
+}
+
+div.comments,div.inormat,div.inningsbreak
+{
+  text-align:center;
+  
+}
+
+.inormat div
+{
+  border-radius: 20%;
+  width:40px;
+  height:20px;
+  padding:3px;
+  margin-left:5px;
+  background-color: black;
+  color:white;
+  border: 2px solid white;
+}
+
+.inormat div:hover
+{
+  background-color: rgb(40, 39, 39);
+}
+
+body>div
+{
+  box-sizing: border-box;
+  height: 100svh;
+  border:0px;
+}
+
+body{
+  margin:0px;
+}
+
+button.playchoice1,button.playchoice2
+{
+  width:60px;
+  height:60px;
+  border:2px solid black;
+  border-radius:20%;
+  padding:4px;
+}
+button.playchoice1:hover
+{
+  background-color: darkblue;
+  color:white;
+  font-weight: 500;
+}
+
+button.playchoice2:hover
+{
+  background-color: yellow;
+  font-weight: bolder;
+}
+
+button.playchoice1
+{
+  background-color: lightskyblue;
+}
+button.playchoice2
+{
+  background-color: lightgoldenrodyellow;
+}
+
+.inormat button{
+  width:90px;
+  height:50px;
+  background-color:rgb(67, 67, 67);
+  color:white;
+  border-radius: 20%;
+  border:2px solid green;
+}
+.inormat button:hover{
+  background-color: black;
+  font-weight: 600;
+}
+
+button.choice
+{
+  width:60px;
+  height:60px;
+  background-color:grey;
+  color:white;
+  border-radius: 20%;
+  border:2px solid red;
+}
+
+button.choice:hover
+{
+  background-color: black;
+}
+
+div.lastgrid
+{
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+}
